@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/title.png"
+      type="image/x-icon"
+    />
+    <title>Todo list | Structure</title>
+  <script defer src="runtime.bundle.js"></script><script defer src="index.bundle.js"></script></head>
+  <body>
+    <main class="main">
+      <section class="container" id="todolistid">
+        <div class="row">
+          <p class="row-par par-title">Today's To Do</p>
+          <button class="row-button button-reload">
+            <span class="material-icons">&#xe627;</span>
+          </button>
+        </div>
+        <div class="row">
+          <p class="row-par row-input">
+            <input
+              type="text"
+              placeholder="Add to your list..."
+              id="todo-input"
+              autofocus=""
+            />
+          </p>
+          <button class="row-button checkbox-icon" id="enterkey-icon">
+            &#8629;
+          </button>
+        </div>
+         <button class="clear-completed" id="cleartodolist">Clear all completed</button>
+      </section>
+    </main>
+  </body>
+</html>
