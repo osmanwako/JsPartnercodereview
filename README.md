@@ -87,7 +87,7 @@ This is simple project of to do lists structure example.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[Live](https://osmanwako.github.io/Todoliststructure/)
+[Live](https://osmanwako.github.io/Todoliststructure/dist/)
 
 <!-- GETTING STARTED -->
 
